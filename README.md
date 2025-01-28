@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Hack related to the handling of nullable integer types. The `bug.hack` file contains a function that attempts to add 1 to a nullable integer. This can result in an error if the nullable integer is null. The `bugSolution.hack` file provides a corrected version of the function that handles the null case gracefully.
